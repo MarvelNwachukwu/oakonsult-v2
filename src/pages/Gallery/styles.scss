@@ -1,0 +1,8 @@
+@import "../../constants/scss/colors";
+@import "../../constants/scss/variables";
+@import "../../constants/scss/mixins";
+
+.gallery {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}

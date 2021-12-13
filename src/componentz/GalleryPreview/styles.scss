@@ -1,0 +1,32 @@
+@import "../../constants/scss/colors";
+@import "../../constants/scss/variables";
+@import "../../constants/scss/mixins";
+
+.photo-preview {
+  cursor: pointer;
+  color: $white;
+  width: 20%;
+  padding: 1em;
+  border-radius: 0.5em;
+  box-shadow: $shadow;
+  margin-right: 2em;
+  text-align: center;
+  .photo-icon {
+    height: 6em;
+    width: 6em;
+    border-radius: 0.5em;
+    box-shadow: $shadow;
+  }
+}
+.absolute-btn {
+  position: absolute;
+  bottom: 2em;
+  right: 2em;
+}
+.photo-list {
+  flex-wrap: wrap;
+}
+.gallary-image {
+  width: 100%;
+  height: 100%;
+}
