@@ -83,7 +83,7 @@ const GetCourseModal = ({ setDialogVisible, courseType }) => {
           <CustomInput
             label="Phone Number"
             value={phone}
-            type={"number"}
+            type={"tel"}
             onChange={({ target }) => setPhone(target.value)}
             required
           />
